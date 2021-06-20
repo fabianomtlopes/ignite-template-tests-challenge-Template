@@ -13,5 +13,5 @@ container.registerSingleton<IUsersRepository>(
 
 container.registerSingleton<IStatementsRepository>(
   'StatementsRepository',
-  StatementsRepository
+   StatementsRepository,
 );
